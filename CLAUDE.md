@@ -4,7 +4,7 @@ Mobile workout-log + social app. Single self-contained file, vanilla JS, no buil
 
 **The app is named Torch.** It used to be "Setti"; that name is gone from all UI. Two deliberate leftovers, do **not** "fix" them:
 - **localStorage keys stay `setti.*`** (`load()`/`applyPrefs()`). Renaming them would orphan every existing user's logged sessions. Migrate properly or leave alone.
-- The **repo was renamed `Setti` -> `torch`** on 2026-08-22; the live URL is now https://lehtisenelmeri.github.io/torch/ (GitHub keeps a redirect from the old repo path).
+- The **repo was renamed `Setti` -> `torch`** on 2026-08-22, then **`torch` -> `torch-app`** on 2026-08-24; the live URL is now https://lehtisenelmeri.github.io/torch-app/ (GitHub keeps a permanent redirect from every old repo path, so the old links still resolve. A rename changes the address, it does not revoke access).
 
 ## Files
 
@@ -123,7 +123,7 @@ Then open `http://localhost:8777/index.html`. Use the browser device toolbar (F1
 
 ## Deploy
 
-Public repo `lehtisenelmeri/torch` on GitHub; **GitHub Pages** serves `main`/root at **https://lehtisenelmeri.github.io/torch/**. Absolute URLs live in the OG meta tags and `404.html`'s back-link, so a future rename means updating those too. Pushing to `main` auto-rebuilds (~1 min). (Vercel project creation is blocked for this account's token — Pages is the deploy path.)
+Public repo `lehtisenelmeri/torch-app` on GitHub; **GitHub Pages** serves `main`/root at **https://lehtisenelmeri.github.io/torch-app/**. Absolute URLs live in the OG meta tags and `404.html`'s back-link, so a future rename means updating those too. Pushing to `main` auto-rebuilds (~1 min). (Vercel project creation is blocked for this account's token — Pages is the deploy path.)
 
 ## Design guardrails (keep it from looking AI-generated)
 
